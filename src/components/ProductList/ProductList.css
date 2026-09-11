@@ -1,0 +1,67 @@
+/* src/components/ProductList/ProductList.css */
+.catalogue-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.catalogue-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.section-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.3em;
+  color: var(--color-gold);
+  text-transform: uppercase;
+}
+
+.section-heading {
+  font-family: var(--font-serif);
+  font-size: 2.75rem;
+  font-weight: 400;
+  margin: 0.5rem 0;
+  letter-spacing: 0.05em;
+}
+
+.section-subheading {
+  color: var(--color-text-secondary);
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+.status-container {
+  text-align: center;
+  padding: 4rem 0;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+}
+
+.loader-crest {
+  font-size: 1.5rem;
+  color: var(--color-gold);
+  margin-bottom: 0.5rem;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.status-note {
+  text-align: center;
+  color: var(--color-gold);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 2rem;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.3; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1.1); }
+}

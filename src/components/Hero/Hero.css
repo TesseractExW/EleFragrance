@@ -1,0 +1,61 @@
+/* src/components/Hero/Hero.css */
+.hero-section {
+  padding: 7rem 2rem 5rem;
+  text-align: center;
+  background: radial-gradient(circle at center, #122c20 0%, #07150e 75%);
+  border-bottom: 1px solid var(--color-gold-muted);
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-pretitle {
+  font-size: 0.7rem;
+  letter-spacing: 0.35em;
+  color: var(--color-gold);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-family: var(--font-serif);
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+.hero-divider {
+  width: 50px;
+  height: 1px;
+  background-color: var(--color-gold);
+  margin: 2rem auto;
+}
+
+.hero-description {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.8;
+  max-width: 540px;
+  margin: 0 auto 2.5rem;
+}
+
+.hero-cta {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #07150e;
+  background: var(--color-gold);
+  padding: 0.9rem 2.2rem;
+  transition: all 0.3s ease;
+}
+
+.hero-cta:hover {
+  background: var(--color-gold-hover);
+  box-shadow: 0 0 20px rgba(200, 168, 112, 0.3);
+}
